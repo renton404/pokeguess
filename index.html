@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokéGuess</title>
+
+    <link rel="icon" type="img/svg+xml" href="resources/pokemon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+/>
+
+
+
+
+
+  </head>
+  <body>
+    <header><h1>Who's That Pokémon?</h1></header>
+
+    <div id="stats">
+
+      <div id="lives"></div>
+
+      <div id="score-coin">
+      <div id="coin"><img src="https://cdn3.emoji.gg/emojis/1643-pixelcoin.gif"
+         width="34px" height="34px" alt="PixelCoin"></div>
+
+      <div id="score"></div>
+     </div>
+    
+    </div>
+
+      <div id="gameover">
+        <h1 id="gameoverText">Game Over !</h1>
+        <h3 id="finalscore"></h3>
+        <button id="tryAgain">Try Again ⟳</button>
+      </div>
+
+
+    <div id="boxes1">
+    
+      <img id="img" class="box" alt="pokemon pic" title="img" />
+      <div id="type" class="box">type</div>
+      <div id="ability" class="box">ability</div>
+      <div id="moves" class="box">moves</div>
+        <div id="loading">Loading Pokémon...</div>
+   
+
+    </div>
+
+
+    <div id="answers">
+      <input id="option1" type="button" class="opt" value="option1" />
+      <input id="option2" type="button" class="opt" value="option2" />
+      <input id="option3" type="button" class="opt" value="option3" />
+      <input id="option4" type="button" class="opt" value="option4" />
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
