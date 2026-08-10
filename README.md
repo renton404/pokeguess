@@ -43,4 +43,4 @@ cd pokeguess
 Then open it with a local server such as VS Code Live Server or:
 python -m http.server
 
-Built with PokémonAPI and questionable amounts of JavaScript.🧑‍💻 
+Built with PokéAPI and questionable amounts of JavaScript.🧑‍💻 
